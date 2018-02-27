@@ -70,6 +70,15 @@ nav a {
   color: #FFFFFF;
 }
 
+button {
+	font-family: "raleway", san-serif;
+color: #F15B31;
+letter-spacing: 1px;
+font-weight: 600;
+font-size: 12px;
+
+}
+
 img {
 margin: 40px 8px;	
 }
