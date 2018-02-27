@@ -3,31 +3,25 @@ text-align: center;
 margin: 0;
 }
 
-header {
-background-color: #F15B31;
-color: #FFFFFF !important;
-padding: 30px 20px 30px 20px;
-}
 
 h1 {
 font-family: "raleway", san-serif;
-color: #0D2c40; /* removed semi-colon so header element font color was correct */
-letter-spacing: 1px;
+color: #FFFFFF; 
 font-weight: 400;
 font-size: 45px;
 text-transform: uppercase;
 margin: 0;	
 }
 
-nav {
-background-color: #00A6B3;
-color: #FFFFFF;
-padding: 20px 0 20px 0;
+header {
+background-color: #F15B31;
+color: #FFFFFF !important;
+padding: 30px 20px 30px 20px;
 }
 
 a {
 font-family: "raleway", san-serif;
-color: #F15B31; /* removed semi-colon so header element font color was correct */
+color: #F15B31;
 letter-spacing: 1px;
 font-weight: 600;
 font-size: 18px;	
@@ -39,6 +33,12 @@ border-bottom: 2px solid transparent;
 
 a:hover {
 border-color: white;	
+}
+
+nav {
+background-color: #00A6B3;
+color: #FFFFFF;
+padding: 20px 0;
 }
 
 main {
@@ -59,6 +59,15 @@ p {
 font-family: "Droid Serif", serif;
 line-height: 26px;
 font-size: 18px;
+}
+
+header h1 {
+  color: #FFFFFF;
+}
+
+nav a {
+  margin: 0 20px;
+  color: #FFFFFF;
 }
 
 img {
